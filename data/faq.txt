@@ -1,0 +1,29 @@
+Q: How can I track my order?
+A: Go to My Orders and select Track Package.
+
+Q: How long does a refund take?
+A: Refunds usually take 5 to 7 business days.
+
+Q: Can I cancel a shipped order?
+A: Cancellation may not be available after shipment.
+
+Q: What payment methods are supported?
+A: UPI, Debit Card, Credit Card, Net Banking and COD.
+
+Q: What are Prime benefits?
+A: Prime members receive free delivery and exclusive offers.
+
+Q: How do I return a product?
+A: Open My Orders and select Return Item.
+
+Q: Why did my payment fail?
+A: Payment failures can occur due to OTP issues, network problems or insufficient balance.
+
+Q: How do I apply a coupon?
+A: Enter the coupon code during checkout.
+
+Q: What happens if delivery is delayed?
+A: You can track the latest delivery status from My Orders.
+
+Q: How do I contact customer support?
+A: Contact support via chat, email or phone.

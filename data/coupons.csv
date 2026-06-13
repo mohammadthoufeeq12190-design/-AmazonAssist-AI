@@ -1,0 +1,6 @@
+coupon_code,discount,minimum_order
+SAVE10,10%,1000
+WELCOME20,20%,2000
+FESTIVE15,15%,1500
+PRIME25,25%,5000
+MEGA30,30%,10000

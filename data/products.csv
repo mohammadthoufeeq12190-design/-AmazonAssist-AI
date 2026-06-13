@@ -1,0 +1,11 @@
+product_id,name,brand,category,price,rating,stock
+P001,iPhone 15,Apple,Electronics,79999,4.8,25
+P002,Galaxy S24,Samsung,Electronics,74999,4.7,30
+P003,AirPods Pro,Apple,Electronics,24999,4.8,40
+P004,Nike Running Shoes,Nike,Fashion,4999,4.5,100
+P005,Adidas T-Shirt,Adidas,Fashion,1499,4.4,150
+P006,HP Pavilion Laptop,HP,Electronics,55999,4.6,20
+P007,Sony Headphones,Sony,Electronics,8999,4.7,60
+P008,Puma Sneakers,Puma,Fashion,3499,4.3,80
+P009,Boat Smartwatch,Boat,Electronics,2999,4.2,120
+P010,Levi's Jeans,Levis,Fashion,2499,4.5,75

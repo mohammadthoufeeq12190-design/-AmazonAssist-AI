@@ -1,0 +1,261 @@
+# AmazonAssist AI – RAG-Powered E-Commerce Customer Support Assistant
+
+## Project Overview
+
+AmazonAssist AI is an intelligent e-commerce customer support chatbot developed using Python, Streamlit, FAISS, and Google's Gemini AI.
+
+The chatbot helps customers with product recommendations, order tracking, refund policies, coupons, and general support queries through a conversational interface.
+
+The project combines Retrieval-Augmented Generation (RAG), Vector Search, and Generative AI to provide accurate and context-aware responses.
+
+---
+
+## Problem Statement
+
+Customers often have questions regarding:
+
+* Product recommendations
+* Order tracking
+* Refund and return policies
+* Available discounts and coupons
+* General support queries
+
+Traditional chatbots provide predefined responses and lack conversational intelligence.
+
+AmazonAssist AI solves this problem by combining AI-powered responses with company data and customer information.
+
+---
+
+## Technologies Used
+
+### Frontend
+
+* Streamlit
+
+### Backend
+
+* Python
+
+### AI & Machine Learning
+
+* Google Gemini API
+* LangChain
+* FAISS Vector Database
+* Embeddings
+
+### Data Handling
+
+* Pandas
+* CSV Databases
+
+---
+
+## System Architecture
+
+User Query
+
+↓
+
+Intent Router
+
+↓
+
+Decision Layer
+
+├── Product Recommendation Engine
+
+├── Order Tracking System
+
+├── Coupon Engine
+
+└── RAG + Gemini AI
+
+↓
+
+Response Generation
+
+↓
+
+Streamlit Interface
+
+---
+
+## Features
+
+### 1. Product Recommendation System
+
+The chatbot recommends products from the product database.
+
+Example:
+
+User: Recommend a laptop
+
+Response:
+
+* HP Pavilion Laptop
+* Price: ₹55,999
+* Rating: 4.6
+
+---
+
+### 2. Budget-Based Recommendations
+
+The chatbot can filter products based on price.
+
+Example:
+
+User: Recommend products under ₹10,000
+
+Response:
+
+* Sony Headphones
+* Boat Smartwatch
+
+---
+
+### 3. Order Tracking System
+
+Customers can track their orders using Order IDs.
+
+Example:
+
+User: Track ORD003
+
+Response:
+
+Order ID: ORD003
+Product: Nike Running Shoes
+Status: Out For Delivery
+Payment Method: COD
+
+---
+
+### 4. Coupon & Discount Engine
+
+The chatbot displays available coupons and offers.
+
+Example:
+
+User: Any offers available?
+
+Response:
+
+* SAVE10 – 10% OFF
+* WELCOME20 – 20% OFF
+* FESTIVE15 – 15% OFF
+
+---
+
+### 5. RAG-Based Question Answering
+
+The chatbot retrieves information from internal documents and FAQs using FAISS vector search.
+
+Example:
+
+User: What is the refund policy?
+
+Response:
+AI-generated answer based on company policies and FAQs.
+
+---
+
+### 6. Gemini AI Integration
+
+Google Gemini is used to generate professional and natural language responses.
+
+This enables:
+
+* Intelligent conversations
+* Better user experience
+* Context-aware responses
+
+---
+
+### 7. Conversational Memory
+
+The chatbot remembers previously recommended products during the conversation.
+
+Example:
+
+User: Recommend a laptop
+
+Bot: HP Pavilion Laptop
+
+User: What is its price?
+
+Bot: The price of HP Pavilion Laptop is ₹55,999.
+
+---
+
+### 8. Chat History
+
+The chatbot stores previous conversations within the current session and displays them in the interface.
+
+---
+
+## Dataset Used
+
+### products.csv
+
+Contains:
+
+* Product Name
+* Brand
+* Category
+* Price
+* Rating
+* Stock
+
+### orders.csv
+
+Contains:
+
+* Order ID
+* Customer Name
+* Product Name
+* Order Status
+* Payment Method
+
+### coupons.csv
+
+Contains:
+
+* Coupon Code
+* Discount
+* Minimum Order Value
+
+### FAQ Documents
+
+Used for RAG retrieval and customer support responses.
+
+---
+
+## Key Achievements
+
+* Built an end-to-end AI chatbot
+* Implemented Retrieval-Augmented Generation (RAG)
+* Integrated Google Gemini AI
+* Created a vector search system using FAISS
+* Added conversational memory
+* Developed recommendation and tracking systems
+* Built an interactive Streamlit web application
+
+---
+
+## Future Enhancements
+
+* User Authentication
+* Database Integration (MySQL/PostgreSQL)
+* Real-Time Order Updates
+* Voice Assistant Support
+* Multi-Language Support
+* Deployment on Cloud Platforms
+* Advanced Recommendation Engine
+
+---
+
+## Conclusion
+
+AmazonAssist AI demonstrates the practical application of Generative AI, RAG, Vector Databases, and Conversational AI in the e-commerce domain.
+
+The project showcases skills in AI Engineering, Machine Learning, Data Processing, Prompt Engineering, and Full-Stack AI Application Development.

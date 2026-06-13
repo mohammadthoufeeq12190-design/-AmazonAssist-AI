@@ -1,0 +1,6 @@
+order_id,customer_name,product_name,status,payment_method
+ORD001,Syed,iPhone 15,Shipped,UPI
+ORD002,Syed,AirPods Pro,Delivered,Credit Card
+ORD003,Syed,Nike Running Shoes,Out For Delivery,COD
+ORD004,Syed,Boat Smartwatch,Cancelled,UPI
+ORD005,Syed,HP Pavilion Laptop,Packed,Net Banking
